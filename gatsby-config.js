@@ -4,9 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `family-day-after-dark`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://familydayafterdark.xyz`,
+    image: `/icon.png`,
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "PARKLANE";
+    src: url("/fonts/ParkLaneNF.otf");
+  }
