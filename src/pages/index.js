@@ -6,7 +6,7 @@ export default function IndexPage() {
         <div class="flex flex-col md:max-w-sm mx-auto max-w-xs">
           <div class="flex flex-wrap h-screen content-center">
             <div class="text-xl font-serif text-white">Welcome to</div>
-            <div class="text-7xl md:text-9xl font-parklane text-amber-500">Family Day After Dark</div>
+            <div class="text-8xl md:text-9xl font-parklane text-amber-500">Family Day After Dark</div>
           </div>
         </div>
       </main>
