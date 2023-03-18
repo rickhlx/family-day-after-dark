@@ -8,16 +8,22 @@ export default function IndexPage() {
             <div class="text-xl font-serif text-gray-200 ">Welcome to</div>
             <div class="text-8xl md:text-9xl font-parklane text-amber-500">Family Day After Dark</div>
           </div>
-          <div class="flex flex-wrap h-screen content-center text-gray-200 font-serif font-light">
-            <p>Welcome to Family Day After Dark, a speakeasy-themed event that will transport you back to the prohibition era. Get ready for a night of cocktails, live music, and entertainment in a secret location that only few will know.</p>
+          <div class="flex flex-wrap h-screen content-center text-gray-200 font-serif font-light text-justify">
+            <p>Welcome to <span class="text-amber-500">Family Day After Dark</span>, the speakeasy that will transport you back to the prohibition era. 
+              Get ready for a night of cocktails, live music, 
+              and entertainment at a secret location only a few will know.</p>
             <br/>
-            <p>Step into our hidden venue and immerse yourself in the ambiance of the roaring twenties. Sip on classic cocktails, tap your toes to jazz and swing, and mingle with other guests. Remember, this is a secret event, so keep your ears open for the latest rumors to find out how to join the party.</p>
+            <p>Step into our hidden venue and immerse yourself in the ambiance of the roaring twenties. 
+              Sip on classic cocktails, tap your toes to jazz and swing, and mingle with other guests. 
+              Remember, this is a secret event, so keep your ears open to find out how to join the party.</p>
             <br/>
-            <p>Please note that this is an invite-only event, and each guest will need a ticket to gain entry. 
-              We have limited capacity, so make sure to secure your ticket early. Your ticket will also include two drink tokens, 
-              allowing you to order up to two cocktails during the event.</p>
+            <p>Please note that this is an <span class="text-amber-500">invite-only</span> event, each guest will need a ticket to gain entry. 
+              We have limited capacity, so make sure to secure your tickets early. Your ticket will also include drink tokens, 
+              allowing you to order cocktails during the event.</p>
               <br/>
-            <p>Get ready for an unforgettable night of 1920s-style excitement at Family Day After Dark.</p>
+            <p>If you would like to attend, secure your tickets by texting <span class="font-bold" >'FDAD'</span> to <a class="text-amber-500" href="sms:+18453502057">(845)-350-2057</a>.</p>
+            <br/>
+            <p class="text-xs">This is a personal invitation, do not share this with anyone except other ticketed guests.</p>
           </div>
         </div>
       </main>
@@ -26,7 +32,7 @@ export default function IndexPage() {
 
 export const Head = () => (
   <>
-    <title>FD</title>
+    <title>FDAD</title>
     <meta
       name="og:title"
       content="Family Day After Dark"
