@@ -35,8 +35,8 @@ export default function IndexPage() {
         </div>
         <p class="text-sm text-center md:text-lg">Check back in:</p>
         <div class="flex flex-wrap flex-row place-content-center text-lg text-center">
-            <div class="p-1"><span class="text-amber-500 font-parklane text-2xl">{days} </span><br/>days</div>
-            <div class="p-1"><span class="text-amber-500 font-parklane text-2xl">{hours} </span><br/>hours</div>
+            <div class="p-1"><span class="text-amber-500 text-2xl">{days} </span><br/>days</div>
+            <div class="p-1"><span class="text-amber-500 text-2xl">{hours} </span><br/>hours</div>
         </div>
         <div class="pt-10">
         <h1 class="text-center font-parklane text-3xl text-amber-500 md:text-5xl">
