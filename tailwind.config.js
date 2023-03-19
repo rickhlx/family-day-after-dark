@@ -4,6 +4,9 @@ module.exports = {
       "./src/pages/**/*.{js,jsx,ts,tsx}",
     ],
   theme: {
+    fontFamily: {
+      'sans': ['RoxboroughCF']
+    },
     extend: {
       fontFamily: {
         parklane: ['PARKLANE']
