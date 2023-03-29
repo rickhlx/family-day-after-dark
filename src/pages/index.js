@@ -1,4 +1,5 @@
 import * as React from "react"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 export default function IndexPage() {
   return (
@@ -21,7 +22,7 @@ export default function IndexPage() {
               We have limited capacity, so make sure to secure your tickets early. Your ticket will also include drink tokens, 
               allowing you to order cocktails during the event.</p>
               <br/>
-            <p>If you would like to attend, secure your tickets by texting <span class="font-bold" >'FDAD'</span> to <a class="text-amber-500" href="sms:+18453502057">(845)-350-2057</a>.</p>
+            <p>If you would like to attend, secure your tickets by texting <span class="font-bold" >'FDAD'</span> to <span class="text-amber-500"><OutboundLink href="sms:+18453502057">(845)-350-2057</OutboundLink></span>.</p>
             <br/>
             <p class="text-xs">This is a personal invitation, do not share this with anyone except other ticketed guests.</p>
           </div>
