@@ -3,13 +3,13 @@ import * as React from "react"
 export default function IndexPage() {
   return (
       <main class="bg-slate-900">
+          <div class="flex flex-wrap h-screen place-content-center">
+            <div class="text-[10rem] md:text-[20rem] font-parklane text-amber-500">FD</div>
+          </div>
         <div class="md:max-w-sm max-w-xs mx-auto">
-        <h1 class="pt-20 pb-10 font-parklane text-6xl text-amber-500 md:text-5xl text-right">
-            Welcome
-        </h1>
       <div class="text-justify font-light font-serif text-gray-200">
         <p>
-        Welcome, cats and dolls, we've been expecting you! You've received the secret invitation to our swanky speakeasy, and we're thrilled to have you.
+        <span class="text-amber-500">Welcome</span>, cats and kittens, we've been expecting you! You've received the secret invitation to our swanky speakeasy, and we're thrilled to have you.
         <br/>
         <br/>
         Now, listen up, if for some reason you can't make it, <span class="text-amber-500">let us know </span>before the gig kicks off.
@@ -24,10 +24,11 @@ export default function IndexPage() {
         <div class="text-justify font-light font-serif text-gray-200">
         <p><span class="text-amber-500">Enter quietly, leave silently.</span> We don’t want any attention drawn to our secret.
         If you let anyone in, you’re out. <span class="text-amber-500">Entry with ticket only.</span> No ticket, no drinks.
-        <span class="text-amber-500"> Two drinks per guest.</span> Let's set the tone, please, speak <span class="italic">easy</span>. Enjoy one another's company, <span class="text-amber-500">no cell phone use inside. </span> 
-        Proper attire required, semi-formal encouraged. Plenty of tables available, <span class="text-amber-500">no standing at the bar. </span>
-        And finally, please do not bring anyone to Family Day After Dark that you wouldn't bring along for a <span class="text-amber-500">weekend getaway.</span>
+        <span class="text-amber-500"> Two drinks per guest.</span> Let's set the tone, please, speak <span class="italic">easy</span>. Enjoy one another's company. <span class="text-amber-500">No cell phone use inside. </span> 
+        Dress snazzy. Proper attire required & semi-formal encouraged. Plenty of tables available. <span class="text-amber-500">No standing at the bar. </span>
+        And finally, relax, sip a nice cocktail and have a swell time. 
         </p>  
+        <div class="pt-5 text-center">This is <span class="text-amber-500 italic">Family Day After Dark.</span></div>
         </div>
         <h1 class="pt-10 pb-10 text-right font-parklane text-6xl text-amber-500 md:text-5xl">
             Location
