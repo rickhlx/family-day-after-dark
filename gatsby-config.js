@@ -43,5 +43,17 @@ module.exports = {
         delayOnRouteUpdate: 0,
       },
     },
-  },]
+  },
+  {
+    resolve: "gatsby-plugin-manifest",
+    options: {
+      name: "Family Day After Dark",
+      short_name: "FDAD",
+      start_url: "/",
+      theme_color: "#0f172a",
+      display: "standalone",
+      icon: "static/icon.png",
+    },
+  },
+  ]
 };
