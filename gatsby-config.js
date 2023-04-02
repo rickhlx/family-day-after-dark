@@ -51,6 +51,7 @@ module.exports = {
       short_name: "FDAD",
       start_url: "/",
       theme_color: "#0f172a",
+      background_color: "#0f172a",
       display: "standalone",
       icon: "static/icon.png",
     },
