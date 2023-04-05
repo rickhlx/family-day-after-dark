@@ -3,13 +3,16 @@ import Cocktail from '../templates/cocktail';
 
 export default function Cocktails() {
   return (
-    <main class='bg-slate-900 p-8 flex flex-wrap justify-center'>
-      <div className='md:max-w-sm mx-auto max-w-xs p-10 m-0 relative border after:absolute after:border after:top-2 after:-right-5 after:bottom-2 after:-left-5'>
+    <main class='bg-slate-900 p-5 flex flex-wrap justify-center'>
+      <div
+        className='md:max-w-sm mx-auto max-w-xs p-5 m-0
+                  relative border after:absolute after:border 
+                  after:top-1 after:-right-2 after:bottom-1 after:-left-2'>
         <div className='flex flex-col'>
-          <h1 className='text-6xl font-parklane text-amber-500 pb-5'>
+          <h1 className='text-5xl font-parklane text-amber-500 pb-5 self-center pt-5'>
             Cocktails
           </h1>
-          <p className='text-gray-200 font-serif text-sm text-justify p-5 pb-10'>
+          <p className='text-gray-200 font-serif text-sm text-justify pb-5'>
             Cocktails are an integral part of our social and cultural fabric,
             with a history that stretches back decades or even centuries. The
             world of mixology is constantly evolving, with new ingredients,
@@ -18,7 +21,7 @@ export default function Cocktails() {
             appreciate the craft and skill that goes into creating them and also
             gain a deeper understanding of how mixology has evolved over time.
           </p>
-          <hr className='pt-5' />
+          <hr />
         </div>
         <Cocktail
           title='Manhattan'
