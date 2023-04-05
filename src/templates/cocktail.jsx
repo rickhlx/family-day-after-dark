@@ -9,8 +9,8 @@ export default function Cocktail({ title, origin, ingredients, description }) {
           {origin}
         </h3>
       </div>
-      <h3 className='text-xs font-sans italic'>{ingredients}</h3>
-      <p className='text-sm pt-4 font-serif text-gray-400'>{description}</p>
+      <h3 className='text-xs font-sans italic text-gray-400'>{ingredients}</h3>
+      <p className='text-sm pt-4 font-serif'>{description}</p>
     </div>
   );
 }
