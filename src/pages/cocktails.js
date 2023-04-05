@@ -71,6 +71,15 @@ export default function Cocktails() {
           not Campari or sweet vermouth. To replace those two stalwarts, he reached for a couple of French
           ingredients: Suze, a bittersweet gentian liqueur and Lillet Blanc, a wine-based aperitif.'
         />
+        <Cocktail
+          title='Monte Carlo'
+          origin='Unknown - c.1948'
+          ingredients='bourbon whiskey, benedictine, angostura bitters'
+          description='Its origin is unknown, but the drink features rye whiskey, Benedictine and aromatic bitters 
+          and first appeared in print in 1948 as part of David Embury’s “The Fine Art of Mixing Drinks.” Benedictine,
+           which takes the place of vermouth, is a French liqueur made from a secret blend of 27 herbs and spices, 
+           including saffron, cinnamon, fir cones and juniper.'
+        />
       </div>
     </main>
   );
