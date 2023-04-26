@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 export default function IndexPage() {
   return (
@@ -18,7 +19,7 @@ export default function IndexPage() {
       </div>
         <div class="">
         <h1 class="pt-10 pb-10 font-parklane text-6xl text-amber-500 md:text-5xl">
-            House<br/>Rules
+            House Rules
         </h1>
         </div>
         <div class="text-justify font-light font-serif text-gray-200">
@@ -31,9 +32,17 @@ export default function IndexPage() {
         <div class="pt-5 text-center">This is <span class="text-amber-500 italic">Family Day After Dark.</span></div>
         </div>
         <h1 class="pt-10 pb-10 text-right font-parklane text-6xl text-amber-500 md:text-5xl">
+            Cocktail Menu
+        </h1>
+        <div class="font-light font-serif text-gray-200 text-right pb-10">
+        <p>
+           Our cocktail menu can be found <Link className='text-amber-500' href="/cocktails">here</Link>.
+        </p>  
+        </div>
+        <h1 class="pb-10 text-left font-parklane text-6xl text-amber-500 md:text-5xl">
             Location
         </h1>
-        <div class="font-light font-serif text-gray-200 text-right pb-20">
+        <div class="font-light font-serif text-gray-200 text-left pb-20">
         <p>
           We know you're excited, but check back on <span class="text-amber-500">Family Day</span> to find out the <span class="italic">secret</span> location.
         </p>  
