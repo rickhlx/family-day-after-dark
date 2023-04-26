@@ -63,22 +63,13 @@ export default function Cocktails() {
           Harry MacElhone in 1919 at Ciro’s Club in London.'
         />
         <Cocktail
-          title='White Negroni'
-          origin='VinExpo - c.2001'
-          ingredients='suze liqueur, lillet blanc, gin'
-          description='The White Negroni was invented in 2001 by British bartender Wayne Collins at VinExpo, 
-          a beverage trade show in Bordeaux, France. He wanted to create a Negroni riff that featured gin but
-          not Campari or sweet vermouth. To replace those two stalwarts, he reached for a couple of French
-          ingredients: Suze, a bittersweet gentian liqueur and Lillet Blanc, a wine-based aperitif.'
-        />
-        <Cocktail
-          title='Monte Carlo'
-          origin='Unknown - c.1948'
-          ingredients='bourbon whiskey, benedictine, angostura bitters'
-          description='Its origin is unknown, but the drink features rye whiskey, Benedictine and aromatic bitters 
-          and first appeared in print in 1948 as part of David Embury’s “The Fine Art of Mixing Drinks.” Benedictine,
-           which takes the place of vermouth, is a French liqueur made from a secret blend of 27 herbs and spices, 
-           including saffron, cinnamon, fir cones and juniper.'
+          title='Negroni'
+          origin='Caffè Giacosa - c.1919'
+          ingredients='gin, campari, sweet vermouth'
+          description='The drink’s origins are not known with certainty. The most widely reported account is that 
+          it was first mixed in Florence, Italy, in 1919, at Caffè Giacosa . The commonly-held origin story is that 
+          it was concocted by a member of the Negroni 
+          family asking the bartender to strengthen the Americano by adding gin, rather than the normal soda water.'
         />
       </div>
     </main>
