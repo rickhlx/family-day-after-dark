@@ -44,8 +44,8 @@ export default function IndexPage() {
         </h1>
         <div class="font-light font-serif text-gray-200 text-left pb-20">
         <p>
-          We know you're excited, but check back on <span class="text-amber-500">Family Day</span> to find out the <span class="italic">secret</span> location.
-        </p>  
+          Patterson / General Services Building / Basement Floor / Follow the signs @ 8:00PM
+        </p>
         </div>
         </div>
       </main>
